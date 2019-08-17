@@ -10,10 +10,10 @@ You need dowload the web project and api project:
  - gir clone {web api proyect}
 
 Install sql BBDD
-  *get your script here .
+  * get your script here .
 
 Download .ino file and load in your ESP8622
-  *get your file here.
+  * get your file here.
 
 ### Prerequisites
 
@@ -36,19 +36,22 @@ then run
 dotnet run
 ```
 
-Local url for api -> http://localhost:5000/
-Local url for web -> http:/localhost:8081/
+- Local url for api -> http://localhost:5000/
+- Local url for web -> http:/localhost:8081/
 
 Create a mysql database
 
 ```
 mysql -u root -p
 
+mysql>create datebase Arduino_plant
 mysql>source /path_file/plant_project_bbdd.sql
 ```
 
 At this point you have all the front and back ready to go. Now we gonna set up ESP8622 with arduino framework.
-* get your 
+
+* get your esp8622 and flash this file in :
+
 
 
 ## Deployment
