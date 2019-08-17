@@ -23,35 +23,41 @@ Before your start to build your own project will need a bit of hardware :
  - Arduino temperature/humidity sensor
  - 5v watter pump
  - ... a plant ;)
-
-```
-Give examples
-```
-
+ 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
+When you have downloaded code , then you need buid solutions : 
+```
+cd {project_folder}
+dotnet build
+```
+then run 
+```
+dotnet run
+```
 
-Say what the step will be
+Local url for api -> http://localhost:5000/
+Local url for web -> http:/localhost:8081/
+
+Create a mysql database
 
 ```
-Give the example
+mysql -u root -p
+
+mysql>source /path_file/plant_project_bbdd.sql
 ```
 
-And repeat
-
-```
-until finished
-```
+At this point you have all the front and back ready to go. Now we gonna set up ESP8622 with arduino framework.
+* get your 
 
 
 ## Deployment
 
-Add additional notes about how to deploy this on a live system
+To deploy your web and api you can use Azure (http://www.portal.azure.com), you can get until ten free runnig services.
 
 ## Built With
 
-* [Dropwizard](http://www.code.visualstudio.com/) - The web framework used
+* [Visual Studio Code](http://www.code.visualstudio.com/) - The web framework used
 * [Arduino](https://www.arduino.cc/) - The web framework used
 
 ## Contributing
@@ -62,10 +68,6 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 ## Authors
 
 * **José Enrique Mateu Soro** - *Initial work* - [PlantProject](https://github.com/ijosee/Plant_project/)
-
-```
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-```
 
 ## License
 
