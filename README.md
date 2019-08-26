@@ -6,14 +6,14 @@ Automatic irrigation of plant with web monitoring.
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. 
 You need dowload the web project and api project: 
- - git clone {web project}
- - gir clone {web api proyect}
+ - git clone link : https://github.com/ijosee/Plant.Web
+ - gir clone link : https://github.com/ijosee/Plant.Api
 
 Install sql BBDD
-  * get your script here .
+  * get your script here (https://github.com/ijosee/Plant_project/blob/master/sql_database.sql)
 
 Download .ino file and load in your ESP8622
-  * get your file here.
+  * get your file here (https://github.com/ijosee/Plant_project/blob/master/arduino_script.io)
 
 ### Prerequisites
 
@@ -26,7 +26,7 @@ Before your start to build your own project will need a bit of hardware :
  
 ### Installing
 
-When you have downloaded code , then you need buid solutions : 
+Download the code and buid solutions : 
 ```
 cd {project_folder}
 dotnet build
@@ -36,8 +36,8 @@ then run
 dotnet run
 ```
 
-- Local url for api -> http://localhost:5000/
-- Local url for web -> http:/localhost:8081/
+- Local url for api -> localhost:5000
+- Local url for web -> localhost:8081
 
 Create a mysql database
 
