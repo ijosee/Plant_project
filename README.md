@@ -50,10 +50,6 @@ mysql>source /path_file/plant_project_bbdd.sql
 
 At this point you have all the front and back ready to go. Now we gonna set up ESP8622 with arduino framework.
 
-* get your esp8622 and flash this file in :
-
-
-
 ## Deployment
 
 To deploy your web and api you can use Azure (http://www.portal.azure.com), you can get until ten free runnig services.
