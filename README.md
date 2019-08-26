@@ -1,5 +1,5 @@
 # Plant project [Net Core 2.2]
-
+### see a demo : [Plant](https://plantweb.azurewebsites.net/home)
 
 Automatic irrigation of plant with web monitoring.
 ## Getting Started
@@ -10,10 +10,10 @@ You need dowload the web project and api project:
  - gir clone link : https://github.com/ijosee/Plant.Api
 
 Install sql BBDD
-  * get your script here (https://github.com/ijosee/Plant_project/blob/master/sql_database.sql)
+  * get your script [here](https://github.com/ijosee/Plant_project/blob/master/sql_database.sql)
 
 Download .ino file and load in your ESP8622
-  * get your file here (https://github.com/ijosee/Plant_project/blob/master/arduino_script.io)
+  * get your file [here](https://github.com/ijosee/Plant_project/blob/master/arduino_script.io)
 
 ### Prerequisites
 
@@ -61,7 +61,7 @@ To deploy your web and api you can use Azure (http://www.portal.azure.com), you 
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+Please read [CONTRIBUTING.md](https://github.com/ijosee/Plant_project/blob/master/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
 
 ## Authors
@@ -78,3 +78,5 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 * Arduino
 * c++
 
+## Note
+We stil working on it. 
